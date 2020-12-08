@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/rushikeshgadekar/Todo-app/static/css/main.2a912dbb.chunk.css",
+    "main.js": "/rushikeshgadekar/Todo-app/static/js/main.ba4b0a66.chunk.js",
+    "main.js.map": "/rushikeshgadekar/Todo-app/static/js/main.ba4b0a66.chunk.js.map",
+    "runtime-main.js": "/rushikeshgadekar/Todo-app/static/js/runtime-main.23dfb340.js",
+    "runtime-main.js.map": "/rushikeshgadekar/Todo-app/static/js/runtime-main.23dfb340.js.map",
+    "static/js/2.a03318d9.chunk.js": "/rushikeshgadekar/Todo-app/static/js/2.a03318d9.chunk.js",
+    "static/js/2.a03318d9.chunk.js.map": "/rushikeshgadekar/Todo-app/static/js/2.a03318d9.chunk.js.map",
+    "static/js/3.6bc72695.chunk.js": "/rushikeshgadekar/Todo-app/static/js/3.6bc72695.chunk.js",
+    "static/js/3.6bc72695.chunk.js.map": "/rushikeshgadekar/Todo-app/static/js/3.6bc72695.chunk.js.map",
+    "index.html": "/rushikeshgadekar/Todo-app/index.html",
+    "static/css/main.2a912dbb.chunk.css.map": "/rushikeshgadekar/Todo-app/static/css/main.2a912dbb.chunk.css.map",
+    "static/js/2.a03318d9.chunk.js.LICENSE.txt": "/rushikeshgadekar/Todo-app/static/js/2.a03318d9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23dfb340.js",
+    "static/js/2.a03318d9.chunk.js",
+    "static/css/main.2a912dbb.chunk.css",
+    "static/js/main.ba4b0a66.chunk.js"
+  ]
+}
