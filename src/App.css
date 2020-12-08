@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: bor;
+}
+.App {
+  text-align: center;
+  background-color: #132743;
+  height: 100vh;
+}
+body {
+  color: rgb(219, 201, 99);
+}
+.header {
+  padding-top: 80px;
+  
+}
+
+.letsGo {
+  color: rgb(212, 102, 39);
+}
+
+.input1 {
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 14px 0 0 14px;
+  border-color: lightblue ;
+  /* background-color: skyblue; */
+}
+.input1:hover {
+  background-color: skyblue;
+}
+.input1:focus {
+  outline: none;
+  background-color: skyblue;
+}
+.input1::placeholder {
+  color: lightseagreen;
+}
+
+.btn1 {
+  padding : 8px 22px;
+  font-size : 15px;
+  margin-left: 5px;
+  border-radius: 0 14px 14px 0 ;
+  border-color: green ;
+  background-color: white;
+}
+.btn1:hover {
+  background-color: lightgreen;
+}
+.btn1:focus {
+  outline: none;
+}
+.list-container {
+  padding-top: 25px;
+}
+
