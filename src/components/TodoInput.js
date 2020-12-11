@@ -22,7 +22,7 @@ function TodoInput(props) {
             <input className='input1' placeholder='kya bolti public' onChange={getInput} value={pass}/>
             <button onClick={showOutput} className='btn1'><i className='bx bxl-tux'></i>  </button>
             {/* { flag ? <h1>{pass}</h1> : ''} */}
-            <div  >{flag ?  list.map((listitem) => { return (<Todo listitem={listitem}/>) }) : ''}</div>
+            <div  >{flag ?  list.map((listitem, index) => { return (<Todo listitem={listitem} key={index}/>) }) : ''}</div>
         </div>
     )
 

@@ -5,7 +5,7 @@ function App() {
   return (
     <div className='App'>
       <div className='header'>
-        <h1 className='letsGo'>Lets Go</h1>
+        <h1 className='Exe-01'>Exe - 01</h1>
       </div>
       <div className='list-container'>
         <TodoInput />

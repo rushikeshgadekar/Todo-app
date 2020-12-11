@@ -5,37 +5,36 @@
 }
 .App {
   text-align: center;
-  background-color: #132743;
+  background-image: linear-gradient(45deg, #bc6ff1 0%, #411fc9 100%);
   min-height: 100vh;
 }
+
 body {
-  color: rgb(219, 201, 99);
+  color: rgb(150, 141, 93);
 }
 .header {
   padding-top: 80px;
   
 }
 
-.letsGo {
-  color: rgb(212, 102, 39);
+.Exe-01 {
+  color: white;
 }
 
 .input1 {
   padding: 8px;
   font-size: 15px;
   border-radius: 14px 0 0 14px;
-  border-color: lightblue ;
-  /* background-color: skyblue; */
+  background-image: linear-gradient(45deg,  #fbfcfd 0%, #aa9057 100%);
 }
-.input1:hover {
-  background-color: skyblue;
-}
+
 .input1:focus {
   outline: none;
-  background-color: skyblue;
 }
+
 .input1::placeholder {
-  color: lightseagreen;
+  color: black;
+  opacity: 0.5;
 }
 
 .btn1 {
@@ -43,48 +42,54 @@ body {
   font-size : 15px;
   margin-left: 5px;
   border-radius: 0 14px 14px 0 ;
-  border-color: green ;
-  background-color: white;
+  background-image: linear-gradient(45deg,  #c7bab2 0%, #aa9057 100%);
 }
 .btn1:hover {
-  background-color: lightgreen;
+  background-color: red;
 }
 .btn1:focus {
   outline: none;
 }
+
 .list-container {
   padding-top: 25px;
 }
 
-.list-item-container {
+.list-item-container > .aliign-items-center{
   display: flex;
   gap: 1em;
   justify-content: center;
   padding: 20px;
-  max-width: 400px;
-}
+  width: 100%;
+  
+} 
 
-.btn2 {
+.line-through {
   padding : 8px;
-  margin-left: 5px;
   font-size: 20px;
   border-radius: 5px ;
   border-color: green ;
   background-color: transparent;
-  color: black;
+  color: white;
+  background-image: linear-gradient(45deg,  #25a006 0%, #94b88b 100%);
 }
 
-.line-through {
-  background-color: lightgreen;
-}
 .line-through1 {
-  background-color:lightcoral;
+  padding : 8px;
+  font-size: 20px;
+  border-radius: 5px ;
+  border-color: green ;
+  background-color: transparent;
+  color: white;
+  background-image: linear-gradient(45deg,  #FF0000 0%, #a55d5d 100%);
 }
 
 .item {
-  width: 100%;
+  width: 700px;
   display: flex;
   padding: 8px;
   font-size: 20px;
+  text-align: left;
+  color: white;
+  font-style: italic;
 }
-
